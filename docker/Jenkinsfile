@@ -1,0 +1,28 @@
+pipeline {
+    agent{
+        label 'slave17'
+    }
+	stages{
+		stage('test automation'){
+			steps{
+			
+					sh 'python3 Reqres.py'
+					
+			}
+		
+		
+		
+		}
+		
+		stage('Test validation'){
+			steps{
+			
+				sh 'pytest'
+			}
+			
+		}
+		
+	}	
+	
+
+}
