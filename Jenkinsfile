@@ -14,8 +14,8 @@ pipeline {
 			branches: [[name: '*/main']], 
 			doGenerateSubmoduleConfigurations: false,  
 			extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: '']],
-			userRemoteConfigs: [[credentialsId: '4094585e-f416-40b9-861e-f217c6992d70', 
-			url: 'https://github.com/Deepali265/mbition123.git']]])
+			userRemoteConfigs: [[credentialsId: '709fee76-1ac1-4e33-854d-f10894c11059', 
+			url: 'https://github.com/Deepali265/jenkinspipeline.git']]])
 			}
 	    }
 		// test automation to fetch data from user managemnet API
