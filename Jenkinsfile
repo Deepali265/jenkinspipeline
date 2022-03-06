@@ -2,7 +2,7 @@
 
 pipeline {
     agent{
-        node('Build_Agent')
+        node('jenkinsAgent')
     }
 	
 
