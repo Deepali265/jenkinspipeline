@@ -20,6 +20,7 @@ def test_Reqres():
     var_test.sendrequest()
     var_response = var_test.sample.json()
     #checks if the data of all the 6 users is received
+    
     assert len(var_response["data"]) == 6
 
 
