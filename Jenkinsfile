@@ -47,10 +47,10 @@ pipeline {
 					bat """
 						cd /d C:/Users/Deepali/anaconda3/condabin
 						pause
-	                    call activate C:\\Users\\Deepali\\anaconda3\\envs\\mbition
+	                                        call activate C:\\Users\\Deepali\\anaconda3\\envs\\mbition
 						pause
 						cd /d ${env.WORKSPACE}
-                        pause
+                                                pause
 						pytest
 						"""
 					
