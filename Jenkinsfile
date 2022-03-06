@@ -23,9 +23,7 @@ pipeline {
 			steps
 			{
 				
-			     script {
-					
-				         
+			     script {	         
 			    bat """
 	                    cd /d C:/Users/Deepali/anaconda3/condabin
 	                    pause
